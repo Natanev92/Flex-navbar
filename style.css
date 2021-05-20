@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+.nav{
+    background-color: dimgrey;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+}
+.active{
+    font-weight:800;
+}
+.nav-links{
+    display:flex;
+    justify-content: flex-end;
+}
+.btn{
+    color: black;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px;
+
+
+}
+
+
+li{
+    list-style: none;
+    display:inline;
+    margin: 10px;
+
+
+}
+li a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
